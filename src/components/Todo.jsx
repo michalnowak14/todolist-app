@@ -10,7 +10,9 @@ export default function Todo() {
   return (
     <div>
       <Form todos={todos} setTodos={setTodos} />
-      <TodoList todos={todos} setTodos={setTodos} />
+      {todos.length === 0 ? null : (
+        <TodoList todos={todos} setTodos={setTodos} />
+      )}
       <Footer completedTodos={completedTodos} totalTodos={totalTodos} />
     </div>
   );
