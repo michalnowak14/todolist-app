@@ -1,13 +1,15 @@
 .footer {
   position: fixed;
   bottom: 0;
-  background-color: #f7ca18;
+  background-color: #6273ff;
+  color: white;
   text-align: center;
   font-weight: bold;
   height: 50px;
   padding: 10px;
   font-size: 1.5em;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+  text-shadow: rgb(61, 61, 61) 1px 0 10px;
   width: 100%;
 }
 .item {

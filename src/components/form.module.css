@@ -24,13 +24,18 @@
   font-family: "Afacad Flux", sans-serif;
   display: inline-block;
   border: none;
-  border-radius: 4px;
-  background-color: #f7ca18;
-  padding: 12px 20px;
+  border-radius: 12px;
+  background-color: #6273ff;
+  padding: 8px 20px;
   cursor: pointer;
   color: white;
+  transition: 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-
+.modernButton:hover {
+  background-color: white;
+  color: #6273ff;
+}
 .inputContainer {
   display: flex;
 }

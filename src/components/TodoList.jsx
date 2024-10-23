@@ -1,9 +1,9 @@
 import TodoItem from "./TodoItem";
 import styles from "./todolist.module.css";
-export default function TodoList({ todos, setTodos }) {
+export default function TodoList({ todos, setTodos, sortedTodos }) {
   return (
     <div className={styles.list}>
-      {todos.map((item) => (
+      {sortedTodos.map((item) => (
         <TodoItem
           todos={todos}
           setTodos={setTodos}
